@@ -1,0 +1,15 @@
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/bin/Debug/net10.0/Demo.Application.deps.json
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/bin/Debug/net10.0/Demo.Application.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/bin/Debug/net10.0/Demo.Application.pdb
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/bin/Debug/net10.0/Demo.Domain.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/bin/Debug/net10.0/Demo.Domain.pdb
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.csproj.AssemblyReference.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.AssemblyInfoInputs.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.AssemblyInfo.cs
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.csproj.CoreCompileInputs.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.App.371CD7EF.Up2Date
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/refint/Demo.Application.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.pdb
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/ref/Demo.Application.dll

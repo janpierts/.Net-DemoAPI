@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Demo.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Demo.Application": "1.0.0",
+          "Demo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Demo.Infrastructure.dll": {}
+        }
+      },
+      "Demo.Application/1.0.0": {
+        "dependencies": {
+          "Demo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Demo.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Demo.Domain/1.0.0": {
+        "runtime": {
+          "Demo.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Demo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Demo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
