@@ -1,5 +1,5 @@
 ﻿using Demo.Application.demo.Features.Catalog.Commands;
-using Demo.Application.demo.service;
+using Demo.Application.demo.ports.In;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.API.demo.Controller;
@@ -9,8 +9,8 @@ namespace Demo.API.demo.Controller;
 //[ApiExplorerSettings(GroupName = "Command")]
 public class ApiCommandController : ControllerBase
 {
-    private readonly ProductService _productService;
-    public ApiCommandController(ProductService productService)
+    private readonly IProductService _productService;
+    public ApiCommandController(IProductService productService)
     {
         _productService = productService;
     }

@@ -6,7 +6,7 @@ using Demo.Application.demo.Features.Catalog.Commands;
 
 namespace Demo.Application.demo.service;
 
-public class ProductService : IProductService
+public class ProductService : IProductService, IScopedDependency
 {
     private readonly IProductRepository _productRepository;
 

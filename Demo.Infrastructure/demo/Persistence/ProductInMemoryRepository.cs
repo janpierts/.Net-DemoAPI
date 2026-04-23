@@ -1,10 +1,11 @@
+using Demo.Application.Common;
 using Demo.Application.demo.Features.Catalog.Commands;
 using Demo.Application.demo.ports.Out;
 using Demo.Domain.Demo.model;
 
 namespace Demo.Infrastructure.demo.Persistence;
 
-public class ProductInMemoryRepository : IProductRepository
+public class ProductInMemoryRepository : IProductRepository, IScopedDependency
 {
     private static readonly List<BEProductEntity> _products = new();
 

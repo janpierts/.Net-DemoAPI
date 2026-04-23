@@ -1,4 +1,4 @@
-﻿using Demo.Application.demo.service;
+﻿using Demo.Application.demo.ports.In;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.API.demo.Controller;
@@ -8,8 +8,8 @@ namespace Demo.API.demo.Controller;
 //[ApiExplorerSettings(GroupName = "Query")]
 public class ApiQueryController : ControllerBase
 {
-    private readonly ProductService _productService;
-    public ApiQueryController(ProductService productService)
+    private readonly IProductService _productService;
+    public ApiQueryController(IProductService productService)
     {
         _productService = productService;
     }
