@@ -11,6 +11,7 @@ public class UpdateProductCommandValidador : AbstractValidator<CreateUpdateProdu
         RuleFor(x => x.Name)
             .NotEmpty().WithMessage("El nombre es obligatorio.")
             .MaximumLength(200).WithMessage("El nombre no puede exceder los 200 caracteres.")
+            .MustHaveLettersIfDigits().WithMessage("El nombre no puede ser solo un numero")
             .When(x => x.Name != null);
         RuleFor(x => x.Status)
             .NotEmpty().WithMessage("El estado es obligatorio.")
