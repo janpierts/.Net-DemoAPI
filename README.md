@@ -3,6 +3,6 @@
   -> Demo.Application (Class lib)
   -> Demo.Infrastructure (Class lib)
   -> Demo.API (API-Rest webapi)
-# Arquitectura Hexagonal o Clean Arch
+# Arquitectura Hexagonal y Clean Code
   -> Uso de DDD (Domain-Driven Design) 
 # Documentador SWAGGER
