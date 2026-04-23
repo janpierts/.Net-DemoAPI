@@ -37,3 +37,7 @@
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/obj/Debug/net10.0/Demo.API.pdb
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/obj/Debug/net10.0/Demo.API.genruntimeconfig.cache
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/obj/Debug/net10.0/ref/Demo.API.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API/obj/Debug/net10.0/Demo.API.sourcelink.json

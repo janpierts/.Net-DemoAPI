@@ -15,3 +15,4 @@
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/refint/Demo.Infrastructure.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.pdb
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/ref/Demo.Infrastructure.dll
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.sourcelink.json
