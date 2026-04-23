@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "R8wSrEga5gU=",
+  "dgSpecHash": "TURshWq741E=",
   "success": true,
   "projectFilePath": "/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/Demo.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/rj/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

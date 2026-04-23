@@ -2,6 +2,7 @@ using Demo.Application.demo.ports.In;
 using Demo.Application.demo.ports.Out;
 using Demo.Domain.Demo.model;
 using Demo.Application.Common;
+using Demo.Application.demo.Features.Catalog.Commands;
 
 namespace Demo.Application.demo.service;
 
@@ -13,7 +14,7 @@ public class ProductService : IProductService
     {
         _productRepository = productRepository;
     }
-    public async Task<ServiceResult<BEProductEntity>> Create(BEProductEntity entity)
+    public async Task<ServiceResult<BEProductEntity>> Create(CreateUpdateProductCommand entity)
     {
         try
         {
@@ -25,7 +26,7 @@ public class ProductService : IProductService
             return ServiceResult<BEProductEntity>.Failure("Error al crear el producto.", new List<string> { ex.Message });
         }
     }
-    public async Task<ServiceResult<BEProductEntity>> Update(Guid id, BEProductEntity entity)
+    public async Task<ServiceResult<BEProductEntity>> Update(Guid id, CreateUpdateProductCommand entity)
     {
         try
         {

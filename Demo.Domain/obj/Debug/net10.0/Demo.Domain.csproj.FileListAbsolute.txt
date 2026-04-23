@@ -5,8 +5,8 @@
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.AssemblyInfoInputs.cache
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.AssemblyInfo.cs
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.csproj.CoreCompileInputs.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.sourcelink.json
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/refint/Demo.Domain.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.pdb
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/ref/Demo.Domain.dll
-/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Domain/obj/Debug/net10.0/Demo.Domain.sourcelink.json

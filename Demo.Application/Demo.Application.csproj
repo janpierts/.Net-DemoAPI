@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Demo.Domain\Demo.Domain.csproj" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
   </ItemGroup>
 
   <PropertyGroup>

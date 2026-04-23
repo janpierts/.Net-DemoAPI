@@ -10,9 +10,9 @@
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.AssemblyInfoInputs.cache
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.AssemblyInfo.cs
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.csproj.CoreCompileInputs.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.sourcelink.json
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Inf.DA525600.Up2Date
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/refint/Demo.Infrastructure.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.pdb
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/ref/Demo.Infrastructure.dll
-/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Infrastructure/obj/Debug/net10.0/Demo.Infrastructure.sourcelink.json

@@ -27,20 +27,21 @@ public class BEProductEntity
 
     public static BEProductEntity Create(Guid productId, string name, int status, int stock, string description, decimal price)
     {
-        Validate(name, status, stock, description, price);
+        Validate(productId, name, status, stock, description, price);
         
         return new BEProductEntity(productId, name, status, stock, description, price, DateTime.UtcNow, DateTime.UtcNow);
     }
 
     public static BEProductEntity Update(Guid productId, string name, int status, int stock, string description, decimal price, DateTime createdAt)
     {
-        Validate(name, status, stock, description, price);
+        Validate(productId, name, status, stock, description, price);
 
         return new BEProductEntity(productId, name, status, stock, description, price, createdAt, DateTime.UtcNow);
 
     }
-    private static void Validate(string name, int status, int stock, string description, decimal price)
+    private static void Validate(Guid id, string name, int status, int stock, string description, decimal price)
     {
+        if(Guid.Empty == id) throw new ArgumentException("El ID del producto es obligatorio.");
         if (price < 0) throw new ArgumentException("El precio no puede ser menor a cero.");
         if (stock < 0) throw new ArgumentException("El stock no puede ser menor a cero.");
         if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("El nombre es obligatorio.");

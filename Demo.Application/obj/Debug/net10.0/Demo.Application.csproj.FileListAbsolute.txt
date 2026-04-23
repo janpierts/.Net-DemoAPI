@@ -8,9 +8,9 @@
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.AssemblyInfoInputs.cache
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.AssemblyInfo.cs
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.csproj.CoreCompileInputs.cache
+/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.sourcelink.json
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.App.371CD7EF.Up2Date
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/refint/Demo.Application.dll
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.pdb
 /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/ref/Demo.Application.dll
-/home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.Application/obj/Debug/net10.0/Demo.Application.sourcelink.json
