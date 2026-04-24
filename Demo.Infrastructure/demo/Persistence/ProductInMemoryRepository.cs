@@ -7,9 +7,13 @@ namespace Demo.Infrastructure.demo.Persistence;
 
 public class ProductInMemoryRepository : IProductRepository, IScopedDependency
 {
+    private readonly IProductStatusCache _statusCache;
     private static readonly List<BEProductEntity> _products = new();
 
-
+    public ProductInMemoryRepository(IProductStatusCache statusCache)
+    {
+        _statusCache = statusCache;
+    }
     public Task<BEProductEntity> Create(CreateUpdateProductCommand entity)
     {
         var newProduct = BEProductEntity.Create(
@@ -55,7 +59,7 @@ public class ProductInMemoryRepository : IProductRepository, IScopedDependency
         var readModel = new ReadProductModel(
             product.ProductId,
             product.Name,
-            product.Status == 1 ? "Activo" : "Inactivo",
+            _statusCache.GetStatusName(product.Status),
             product.Stock,
             product.Description,
             product.Price,
