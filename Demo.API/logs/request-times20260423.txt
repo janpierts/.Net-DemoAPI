@@ -1,0 +1,25 @@
+2026-04-23 20:38:36.717 -05:00 [INF] Now listening on: http://localhost:5244
+2026-04-23 20:38:36.755 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-23 20:38:36.755 -05:00 [INF] Hosting environment: Development
+2026-04-23 20:38:36.756 -05:00 [INF] Content root path: /home/rj/Desktop/C#/BACKEND/TEST-DEMO/Demo.API
+2026-04-23 20:39:02.253 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5244/api/ApiCommand - application/json 90
+2026-04-23 20:39:02.285 -05:00 [WRN] Failed to determine the https port for redirect.
+2026-04-23 20:39:02.287 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiCommandController.Create (Demo.API)'
+2026-04-23 20:39:02.302 -05:00 [INF] Route matched with {action = "Create", controller = "ApiCommand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateProductCommand) on controller Demo.API.demo.Controller.ApiCommandController (Demo.API).
+2026-04-23 20:39:02.391 -05:00 [INF] Executing OkObjectResult, writing value of type 'Demo.Application.Common.ServiceResult`1[[Demo.Domain.Demo.model.BEProductEntity, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-23 20:39:02.410 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiCommandController.Create (Demo.API) in 105.7708ms
+2026-04-23 20:39:02.411 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiCommandController.Create (Demo.API)'
+2026-04-23 20:39:02.411 -05:00 [INF] Request [POST] /api/ApiCommand executed in 127 ms
+2026-04-23 20:39:02.412 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5244/api/ApiCommand - 200 null application/json; charset=utf-8 163.9965ms
+2026-04-23 20:39:15.831 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5244/api/ApiQuery/1 - null null
+2026-04-23 20:39:15.837 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetById (Demo.API)'
+2026-04-23 20:39:15.842 -05:00 [INF] Route matched with {action = "GetById", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-04-23 20:39:15.849 -05:00 [INF] Start processing HTTP request GET https://69e81c082f51b534be5fbee2.mockapi.io/api/v1/test/Products/1
+2026-04-23 20:39:15.850 -05:00 [INF] Sending HTTP request GET https://69e81c082f51b534be5fbee2.mockapi.io/api/v1/test/Products/1
+2026-04-23 20:39:17.473 -05:00 [INF] Received HTTP response headers after 1620.6673ms - 200
+2026-04-23 20:39:17.473 -05:00 [INF] End processing HTTP request after 1625.3322ms - 200
+2026-04-23 20:39:17.482 -05:00 [INF] Executing OkObjectResult, writing value of type 'Demo.Domain.Demo.model.ReadProductModel'.
+2026-04-23 20:39:17.486 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetById (Demo.API) in 1643.1387ms
+2026-04-23 20:39:17.486 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetById (Demo.API)'
+2026-04-23 20:39:17.486 -05:00 [INF] Request [GET] /api/ApiQuery/1 executed in 1649 ms
+2026-04-23 20:39:17.488 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5244/api/ApiQuery/1 - 200 null application/json; charset=utf-8 1657.1888ms

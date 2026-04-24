@@ -2,8 +2,17 @@ using Demo.Application.config;
 using Demo.Application.demo.ports.Out;
 using Demo.Infrastructure.config;
 using Demo.Infrastructure.ExternalServices;
+using Demo.Infrastructure.Middleware;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/request-times.txt", rollingInterval: RollingInterval.Day) // ¡Aquí está tu archivo!
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 var discountApiUrl = builder.Configuration["ExternalServices:DiscountApiBaseUrl"];
 
@@ -11,6 +20,7 @@ builder.Services.AddControllers();
 builder.Services.AddApplication();
 builder.Services.AddMemoryCache();
 builder.Services.AddInfrastructure();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -35,7 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<RTimeMiddleware>();
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
