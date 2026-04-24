@@ -6,7 +6,7 @@ Este proyecto implementa una arquitectura Hexagonal (Puertos y Adaptadores) comb
 
 
 ## 🛠️ Stack Tecnológico
-- **Framework:** .NET 10.1
+- **Framework:** .NET 10.0
 - **Arquitectura:** Hexagonal / Clean Architecture
 - **Patrones:** DDD (Domain-Driven Design), Repository Pattern, Inyección de Dependencias y cqrs conceptual
 - **Documentación:** Swagger (OpenAPI)
