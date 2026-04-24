@@ -1,7 +1,7 @@
 ﻿namespace Demo.Domain.Demo.model;
 
 public record ReadProductModel(
-    Guid ProductId,
+    int ProductId,
     string Name,
     string StatusName,
     int Stock,

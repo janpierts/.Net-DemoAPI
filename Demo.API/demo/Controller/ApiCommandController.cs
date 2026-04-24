@@ -25,12 +25,16 @@ public class ApiCommandController : ControllerBase
         return Ok(await _productService.Create(command));
     }
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(Guid id, [FromBody]CreateUpdateProductCommand command){
+    public async Task<IActionResult> Update(int id, [FromBody]CreateUpdateProductCommand command){
         var validator = new UpdateProductCommandValidador();
         var result = await validator.ValidateAsync(command);
         if (!result.IsValid) 
         {
             return BadRequest(result.Errors);
+        }
+        if(id <= 0)
+        {
+            return BadRequest("El ID del producto debe ser mayor que cero.");
         }
         return Ok(await _productService.Update(id, command));
     }

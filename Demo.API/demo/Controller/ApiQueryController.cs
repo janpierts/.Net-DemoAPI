@@ -14,7 +14,11 @@ public class ApiQueryController : ControllerBase
         _productService = productService;
     }
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetById(Guid id){
+    public async Task<IActionResult> GetById(int id){
+        if(id <= 0)
+        {
+            return BadRequest("El ID del producto debe ser mayor que cero.");
+        }
         return Ok(await _productService.GetById(id));
     }
 }

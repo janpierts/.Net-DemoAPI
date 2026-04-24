@@ -2,7 +2,7 @@
 
 public class BEProductEntity
 {
-    public Guid ProductId { get; private set; }
+    public int ProductId { get; private set; }
     public string Name { get; private set; }
     public int Status { get; private set; }
     public int Stock { get; private set; }
@@ -13,7 +13,7 @@ public class BEProductEntity
 
     protected BEProductEntity() { }
 
-    public BEProductEntity(Guid productId, string name, int status, int stock, string description, decimal price, DateTime createdAt, DateTime updatedAt)
+    public BEProductEntity(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt, DateTime updatedAt)
     {
         ProductId = productId;
         Name = name;
@@ -25,23 +25,23 @@ public class BEProductEntity
         UpdatedAt = updatedAt;
     }
 
-    public static BEProductEntity Create(Guid productId, string name, int status, int stock, string description, decimal price)
+    public static BEProductEntity Create(int productId, string name, int status, int stock, string description, decimal price)
     {
         Validate(productId, name, status, stock, description, price);
         
         return new BEProductEntity(productId, name, status, stock, description, price, DateTime.UtcNow, DateTime.UtcNow);
     }
 
-    public static BEProductEntity Update(Guid productId, string name, int status, int stock, string description, decimal price, DateTime createdAt)
+    public static BEProductEntity Update(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt)
     {
         Validate(productId, name, status, stock, description, price);
 
         return new BEProductEntity(productId, name, status, stock, description, price, createdAt, DateTime.UtcNow);
 
     }
-    private static void Validate(Guid id, string name, int status, int stock, string description, decimal price)
+    private static void Validate(int id, string name, int status, int stock, string description, decimal price)
     {
-        if(Guid.Empty == id) throw new ArgumentException("El ID del producto es obligatorio.");
+        if (id <= 0) throw new ArgumentException("El ID del producto es obligatorio.");
         if (price < 0) throw new ArgumentException("El precio no puede ser menor a cero.");
         if (stock < 0) throw new ArgumentException("El stock no puede ser menor a cero.");
         if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("El nombre es obligatorio.");

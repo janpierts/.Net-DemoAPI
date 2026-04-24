@@ -26,7 +26,7 @@ public class ProductService : IProductService, IScopedDependency
             return ServiceResult<BEProductEntity>.Failure("Error al crear el producto.", new List<string> { ex.Message });
         }
     }
-    public async Task<ServiceResult<BEProductEntity>> Update(Guid id, CreateUpdateProductCommand entity)
+    public async Task<ServiceResult<BEProductEntity>> Update(int id, CreateUpdateProductCommand entity)
     {
         try
         {
@@ -38,7 +38,7 @@ public class ProductService : IProductService, IScopedDependency
             return ServiceResult<BEProductEntity>.Failure("Error al actualizar el producto.", new List<string> { ex.Message });
         }
     }
-    public async Task<ReadProductModel> GetById(Guid id)
+    public async Task<ReadProductModel> GetById(int id)
     {
         return await _productRepository.GetById(id);
     }

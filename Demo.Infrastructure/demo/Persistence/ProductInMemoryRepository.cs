@@ -8,16 +8,18 @@ namespace Demo.Infrastructure.demo.Persistence;
 public class ProductInMemoryRepository : IProductRepository, IScopedDependency
 {
     private readonly IProductStatusCache _statusCache;
+    private readonly IDiscount _discountService;
     private static readonly List<BEProductEntity> _products = new();
 
-    public ProductInMemoryRepository(IProductStatusCache statusCache)
+    public ProductInMemoryRepository(IProductStatusCache statusCache, IDiscount discountService)
     {
         _statusCache = statusCache;
+        _discountService = discountService;
     }
     public Task<BEProductEntity> Create(CreateUpdateProductCommand entity)
     {
         var newProduct = BEProductEntity.Create(
-            Guid.NewGuid(),
+            _products.Count > 0 ? _products.Max(p => p.ProductId) + 1 : 1,
             entity.Name!,
             entity.Status!.Value,
             entity.Stock!.Value,
@@ -29,7 +31,7 @@ public class ProductInMemoryRepository : IProductRepository, IScopedDependency
         return Task.FromResult(newProduct);
     }
 
-    public Task<BEProductEntity> Update(Guid id, CreateUpdateProductCommand entity)
+    public Task<BEProductEntity> Update(int id, CreateUpdateProductCommand entity)
     {
         var existingProduct = _products.FirstOrDefault(p => p.ProductId == id);
         if (existingProduct == null)
@@ -50,11 +52,13 @@ public class ProductInMemoryRepository : IProductRepository, IScopedDependency
         return Task.FromResult(upProduct);
     }
     
-    public Task<ReadProductModel> GetById(Guid id)
+    public async Task<ReadProductModel> GetById(int id)
     {
         var product = _products.FirstOrDefault(p => p.ProductId == id);
         if (product == null)
             throw new Exception("Producto no encontrado.");
+
+        var discount = await _discountService.GetDiscountAsync(id);
 
         var readModel = new ReadProductModel(
             product.ProductId,
@@ -63,12 +67,12 @@ public class ProductInMemoryRepository : IProductRepository, IScopedDependency
             product.Stock,
             product.Description,
             product.Price,
-            0, // Asumiendo que no hay descuento en este ejemplo
-            product.Price, // Sin descuento aplicado
+            discount,
+            product.Price * (100 - discount)/100,
             product.CreatedAt,
             product.UpdatedAt
         );
 
-        return Task.FromResult(readModel);
+        return await Task.FromResult(readModel);
     }
 }
