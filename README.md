@@ -54,6 +54,12 @@ Este proyecto implementa una arquitectura Hexagonal (Puertos y Adaptadores) comb
 
 <img width="1606" height="985" alt="image" src="https://github.com/user-attachments/assets/dec4ce82-d0f8-45a5-94f4-aacbfff9c898" />
 
+->  pruebas unitarias ::: 
+
+<img width="716" height="264" alt="image" src="https://github.com/user-attachments/assets/da84e140-78ea-4885-ae9e-a36914d49a68" />
+
+<img width="1880" height="584" alt="image" src="https://github.com/user-attachments/assets/3abff98e-ed5e-4fc3-826b-c9d3aa2ffde7" />
+
 
 ## 📈 Características Implementadas
 - **Desacoplamiento total:** La capa de `Application` ignora cómo se obtienen los datos.
