@@ -75,4 +75,31 @@ public class ProductInMemoryRepository : IProductRepository, IScopedDependency
 
         return await Task.FromResult(readModel);
     }
+
+    public async Task<ReadVentasModel> GetVentas()
+    {
+        return null;
+        /*
+        var product = _products.FirstOrDefault(p => p.ProductId == id);
+        if (product == null)
+            throw new Exception("Producto no encontrado.");
+
+        var discount = await _discountService.GetDiscountAsync(id);
+
+        var readModel = new ReadProductModel(
+            product.ProductId,
+            product.Name,
+            _statusCache.GetStatusName(product.Status),
+            product.Stock,
+            product.Description,
+            product.Price,
+            discount,
+            product.Price * (100 - discount) / 100,
+            product.CreatedAt,
+            product.UpdatedAt
+        );
+
+        return await Task.FromResult(readModel);
+    */
+    }
 }

@@ -7,4 +7,5 @@ public interface IProductRepository
     Task<BEProductEntity> Create(CreateUpdateProductCommand entity);
     Task<BEProductEntity> Update(int id, CreateUpdateProductCommand entity);
     Task<ReadProductModel> GetById(int id);
+    Task<ReadVentasModel> GetVentas();
 }

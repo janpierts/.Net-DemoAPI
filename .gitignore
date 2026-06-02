@@ -1,0 +1,22 @@
+##   Visual Studio Cache y Configuraciones Locales
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+##   Carpetas de Compilación (Binarios)
+bin/
+obj/
+
+##   Archivos generados por Rider / VS Code (Opcional por si acaso)
+.idea/
+.vscode/
+
+##   Caché de paquetes NuGet
+*.nuget.props
+*.nuget.targets
+
+##   Publicación y builds locales
+/publish/
+/Log/

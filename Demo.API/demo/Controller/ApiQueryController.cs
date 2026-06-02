@@ -21,4 +21,10 @@ public class ApiQueryController : ControllerBase
         }
         return Ok(await _productService.GetById(id));
     }
+
+    [HttpGet()]
+    public async Task<IActionResult> GetVentass()
+    {
+        return Ok(await _productService.GetVentas());
+    }
 }

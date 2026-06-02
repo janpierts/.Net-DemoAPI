@@ -42,4 +42,8 @@ public class ProductService : IProductService, IScopedDependency
     {
         return await _productRepository.GetById(id);
     }
+    public async Task<ReadVentasModel> GetVentas()
+    {
+        return await _productRepository.GetVentas();
+    }
 }
