@@ -5,6 +5,6 @@ public record CreateUpdateVentasCommand(
     int? Cliente,
     int? Producto,
     int? Categoria,
-    decimal? precio,
-    int? cantidad 
+    decimal? Precio,
+    int? Cantidad 
 );

@@ -1,6 +1,6 @@
 ﻿namespace Demo.Domain.Demo.model;
 
-public class BEProductEntity
+public class BEVentasEntity
 {
     public int ProductId { get; private set; }
     public string Name { get; private set; }
@@ -11,9 +11,9 @@ public class BEProductEntity
     public DateTime CreatedAt { get; private set; }
     public DateTime UpdatedAt { get; private set; }
 
-    protected BEProductEntity() { }
+    protected BEVentasEntity() { }
 
-    public BEProductEntity(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt, DateTime updatedAt)
+    public BEVentasEntity(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt, DateTime updatedAt)
     {
         ProductId = productId;
         Name = name;
@@ -25,18 +25,18 @@ public class BEProductEntity
         UpdatedAt = updatedAt;
     }
 
-    public static BEProductEntity Create(int productId, string name, int status, int stock, string description, decimal price)
+    public static BEVentasEntity Create(int productId, string name, int status, int stock, string description, decimal price)
     {
         Validate(productId, name, status, stock, description, price);
-        
-        return new BEProductEntity(productId, name, status, stock, description, price, DateTime.UtcNow, DateTime.UtcNow);
+
+        return new BEVentasEntity(productId, name, status, stock, description, price, DateTime.UtcNow, DateTime.UtcNow);
     }
 
-    public static BEProductEntity Update(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt)
+    public static BEVentasEntity Update(int productId, string name, int status, int stock, string description, decimal price, DateTime createdAt)
     {
         Validate(productId, name, status, stock, description, price);
 
-        return new BEProductEntity(productId, name, status, stock, description, price, createdAt, DateTime.UtcNow);
+        return new BEVentasEntity(productId, name, status, stock, description, price, createdAt, DateTime.UtcNow);
 
     }
     private static void Validate(int id, string name, int status, int stock, string description, decimal price)

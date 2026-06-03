@@ -1,0 +1,73 @@
+2026-06-03 03:30:57.617 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-03 03:30:57.647 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-03 03:30:57.694 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 03:30:57.695 -05:00 [INF] Hosting environment: Development
+2026-06-03 03:30:57.695 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-03 03:31:08.656 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:08.796 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:08.801 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 154.0436ms
+2026-06-03 03:31:08.804 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:10.252 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:10.257 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:10.258 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 5.9839ms
+2026-06-03 03:31:10.260 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:10.785 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:10.789 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:10.790 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 5.6823ms
+2026-06-03 03:31:10.792 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:11.402 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:11.405 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:11.406 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 4.5154ms
+2026-06-03 03:31:11.409 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:11.928 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:11.932 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:11.933 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 4.3742ms
+2026-06-03 03:31:11.935 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:12.194 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:12.197 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:12.198 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 4.366ms
+2026-06-03 03:31:12.200 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:12.420 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:12.423 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:12.424 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 4.2064ms
+2026-06-03 03:31:12.425 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:12.617 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:12.620 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:12.621 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 3.9237ms
+2026-06-03 03:31:12.623 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:12.804 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:12.808 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:12.810 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 5.2025ms
+2026-06-03 03:31:12.812 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:12.987 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/ - null null
+2026-06-03 03:31:12.990 -05:00 [INF] Request [GET] / executed in 0 ms
+2026-06-03 03:31:12.991 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/ - 404 null null 3.9974ms
+2026-06-03 03:31:12.993 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/, Response status code: 404
+2026-06-03 03:31:18.983 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger - null null
+2026-06-03 03:31:18.986 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger - 301 null null 3.0854ms
+2026-06-03 03:31:18.992 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-03 03:31:19.050 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 58.6742ms
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-03 03:31:19.070 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 11.7501ms
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-03 03:31:19.058 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-03 03:31:19.066 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-03 03:31:19.082 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 23.9619ms
+2026-06-03 03:31:19.082 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 24.0933ms
+2026-06-03 03:31:19.082 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 24.071ms
+2026-06-03 03:31:19.082 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 24.1417ms
+2026-06-03 03:31:19.093 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 35.558ms
+2026-06-03 03:31:19.140 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.2623ms
+2026-06-03 03:31:19.203 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-03 03:31:19.217 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.9866ms
+2026-06-03 03:31:32.642 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-03 03:31:32.647 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-03 03:31:32.670 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-03 03:31:34.575 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 03:31:34.588 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1913.2803ms
+2026-06-03 03:31:34.590 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-03 03:31:34.591 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1944 ms
+2026-06-03 03:31:34.592 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1949.905ms

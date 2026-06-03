@@ -9,5 +9,6 @@ public interface IProductService
     Task<ServiceResult<BEProductEntity>> Create(CreateUpdateProductCommand entity);
     Task<ServiceResult<BEProductEntity>> Update(int id, CreateUpdateProductCommand entity);
     Task<ReadProductModel> GetById(int id);
-    Task<ReadVentasModel> GetVentas();
+    Task<IEnumerable<ReadVentasModel>> GetVentas();
+    Task<bool> CreateVenta(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateVentasCommand command);
 }

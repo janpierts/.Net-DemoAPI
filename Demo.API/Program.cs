@@ -6,6 +6,18 @@ using Demo.Infrastructure.Middleware;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+builder.Services.AddControllers();
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -45,6 +57,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("AllowLocalhost");
 app.UseMiddleware<RTimeMiddleware>();
 app.UseHttpsRedirection();
 app.MapControllers();

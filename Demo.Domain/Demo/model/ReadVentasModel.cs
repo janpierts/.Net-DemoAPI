@@ -1,11 +1,9 @@
 ﻿namespace Demo.Domain.Demo.model;
 
 public record ReadVentasModel(
-    int VentasId,
+    int VentaId,
     string Cliente,
     string Producto,
-    string Categoria,
-    decimal Price,
-    int Cantidad,
-    DateTime CreatedAt
+    DateTime Fecha,
+    int Cantidad
 );

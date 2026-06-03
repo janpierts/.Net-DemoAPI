@@ -23,7 +23,7 @@ public class ApiQueryController : ControllerBase
     }
 
     [HttpGet()]
-    public async Task<IActionResult> GetVentass()
+    public async Task<IActionResult> GetVentas()
     {
         return Ok(await _productService.GetVentas());
     }

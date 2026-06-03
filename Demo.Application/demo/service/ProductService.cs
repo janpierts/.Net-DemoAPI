@@ -18,7 +18,7 @@ public class ProductService : IProductService, IScopedDependency
     {
         try
         {
-            var createdProduct = await _productRepository.Create(entity);
+            var createdProduct = await _productRepository.CreateAsync(entity);
             return ServiceResult<BEProductEntity>.Ok(createdProduct, "Producto creado exitosamente.");
         }
         catch (Exception ex)
@@ -30,7 +30,7 @@ public class ProductService : IProductService, IScopedDependency
     {
         try
         {
-            var updatedProduct = await _productRepository.Update(id, entity);
+            var updatedProduct = await _productRepository.UpdateAsync(id, entity);
             return ServiceResult<BEProductEntity>.Ok(updatedProduct, "Producto actualizado exitosamente.");
         }
         catch (Exception ex)
@@ -40,10 +40,14 @@ public class ProductService : IProductService, IScopedDependency
     }
     public async Task<ReadProductModel> GetById(int id)
     {
-        return await _productRepository.GetById(id);
+        return await _productRepository.GetByIdAsync(id);
     }
-    public async Task<ReadVentasModel> GetVentas()
+    public async Task<IEnumerable<ReadVentasModel>> GetVentas()
     {
-        return await _productRepository.GetVentas();
+        return await _productRepository.GetVentasAsync();
+    }
+    public async Task<bool> CreateVenta(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateVentasCommand command)
+    {
+        return await _productRepository.CreateVentaAsync(command);
     }
 }

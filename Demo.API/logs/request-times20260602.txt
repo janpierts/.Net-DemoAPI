@@ -49,3 +49,662 @@
 2026-06-02 17:12:56.345 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
 2026-06-02 17:12:56.348 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1876ms
 2026-06-02 17:12:56.348 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 200 628 image/png 3.3511ms
+2026-06-02 17:37:23.195 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 17:37:23.226 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 17:37:23.271 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 17:37:23.272 -05:00 [INF] Hosting environment: Development
+2026-06-02 17:37:23.273 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 17:37:23.329 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 17:37:23.514 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 196.3426ms
+2026-06-02 17:37:23.523 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 17:37:23.523 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 17:37:23.523 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 17:37:23.523 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 17:37:23.523 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 17:37:23.560 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 17:37:23.625 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 17:37:23.638 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 109.8515ms
+2026-06-02 17:37:23.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 123.2995ms
+2026-06-02 17:37:23.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 122.9217ms
+2026-06-02 17:37:23.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 123.3602ms
+2026-06-02 17:37:23.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 123.2943ms
+2026-06-02 17:37:23.646 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 123.1687ms
+2026-06-02 17:37:24.057 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 432.0735ms
+2026-06-02 17:37:24.093 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 17:37:24.103 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3322ms
+2026-06-02 17:37:24.108 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 17:37:24.111 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 3.5012ms
+2026-06-02 17:37:28.655 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:37:28.663 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API)'
+2026-06-02 17:37:29.959 -05:00 [INF] Route matched with {action = "GetVentass", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentass() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:37:29.979 -05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-06-02 17:37:29.983 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API) in 19.997ms
+2026-06-02 17:37:29.984 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API)'
+2026-06-02 17:37:29.985 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1324 ms
+2026-06-02 17:37:29.986 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 204 null null 1331.252ms
+2026-06-02 17:38:49.765 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 17:38:49.796 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 17:38:49.842 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 17:38:49.843 -05:00 [INF] Hosting environment: Development
+2026-06-02 17:38:49.843 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 17:39:12.097 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 17:39:12.238 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 145.3794ms
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 17:39:12.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 17:39:12.279 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 17:39:12.314 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 68.8589ms
+2026-06-02 17:39:12.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 82.7038ms
+2026-06-02 17:39:12.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 82.7117ms
+2026-06-02 17:39:12.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 82.6936ms
+2026-06-02 17:39:12.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 82.7066ms
+2026-06-02 17:39:12.328 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 82.6727ms
+2026-06-02 17:39:12.347 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.668ms
+2026-06-02 17:39:12.368 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 17:39:12.368 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 17:39:12.370 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 1.8751ms
+2026-06-02 17:39:12.377 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8363ms
+2026-06-02 17:46:38.485 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 17:46:38.513 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 17:46:38.553 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 17:46:38.553 -05:00 [INF] Hosting environment: Development
+2026-06-02 17:46:38.554 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 17:46:41.115 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 17:46:41.249 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 138.5084ms
+2026-06-02 17:46:41.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 17:46:41.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 17:46:41.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 17:46:41.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 17:46:41.270 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 12.6413ms
+2026-06-02 17:46:41.257 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 17:46:41.260 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 17:46:41.262 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 17:46:41.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 35.5836ms
+2026-06-02 17:46:41.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 35.6072ms
+2026-06-02 17:46:41.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 35.2292ms
+2026-06-02 17:46:41.292 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 35.5837ms
+2026-06-02 17:46:41.293 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 33.5064ms
+2026-06-02 17:46:41.313 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.4942ms
+2026-06-02 17:46:41.331 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 17:46:41.331 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 17:46:41.334 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 3.0684ms
+2026-06-02 17:46:41.341 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4713ms
+2026-06-02 17:46:46.347 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 17:46:46.353 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 6.0253ms
+2026-06-02 17:46:46.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 17:46:46.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 17:46:46.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 17:46:46.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 17:46:46.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 17:46:46.359 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 17:46:46.359 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 17:46:46.360 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 1.8394ms
+2026-06-02 17:46:46.361 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 3.0377ms
+2026-06-02 17:46:46.362 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 4.1972ms
+2026-06-02 17:46:46.364 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 5.5146ms
+2026-06-02 17:46:46.365 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 6.7178ms
+2026-06-02 17:46:46.366 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 7.7412ms
+2026-06-02 17:46:46.378 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.2148ms
+2026-06-02 17:46:46.393 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 17:46:46.396 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 17:46:46.397 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.6772ms
+2026-06-02 17:46:46.398 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 1.7895ms
+2026-06-02 17:46:50.796 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:46:50.803 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API)'
+2026-06-02 17:46:50.821 -05:00 [INF] Route matched with {action = "GetVentass", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentass() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:46:52.330 -05:00 [INF] Executing OkObjectResult, writing value of type 'Demo.Domain.Demo.model.ReadVentasModel'.
+2026-06-02 17:46:52.342 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API) in 1516.6452ms
+2026-06-02 17:46:52.343 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentass (Demo.API)'
+2026-06-02 17:46:52.344 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1542 ms
+2026-06-02 17:46:52.346 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1550.2492ms
+2026-06-02 17:50:11.146 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 17:50:11.175 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 17:50:11.368 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 17:50:11.369 -05:00 [INF] Hosting environment: Development
+2026-06-02 17:50:11.370 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 17:50:35.310 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 17:50:35.341 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 17:50:35.386 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 17:50:35.386 -05:00 [INF] Hosting environment: Development
+2026-06-02 17:50:35.387 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 17:50:35.516 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 17:50:35.658 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 147.3049ms
+2026-06-02 17:50:35.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 17:50:35.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 17:50:35.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 17:50:35.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 17:50:35.666 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 17:50:35.671 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 17:50:35.711 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 17:50:35.723 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 57.3538ms
+2026-06-02 17:50:35.735 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 68.3844ms
+2026-06-02 17:50:35.735 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 68.8842ms
+2026-06-02 17:50:35.735 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 68.8771ms
+2026-06-02 17:50:35.735 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 69.3176ms
+2026-06-02 17:50:35.735 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 65.2744ms
+2026-06-02 17:50:35.752 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.299ms
+2026-06-02 17:50:35.776 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 17:50:35.776 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 17:50:35.779 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 2.8112ms
+2026-06-02 17:50:35.783 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.843ms
+2026-06-02 17:50:39.431 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:50:39.437 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:50:39.455 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:50:40.939 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:50:40.951 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1491.4417ms
+2026-06-02 17:50:40.952 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:50:40.953 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1517 ms
+2026-06-02 17:50:40.955 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1524.8008ms
+2026-06-02 17:53:06.961 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:53:06.970 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:53:06.971 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:53:06.980 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:53:06.985 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 13.6263ms
+2026-06-02 17:53:06.986 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:53:06.987 -05:00 [INF] Request [GET] /api/ApiQuery executed in 16 ms
+2026-06-02 17:53:06.988 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 26.4144ms
+2026-06-02 17:53:07.010 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/favicon.ico - null null
+2026-06-02 17:53:07.012 -05:00 [INF] Request [GET] /favicon.ico executed in 0 ms
+2026-06-02 17:53:07.013 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/favicon.ico - 404 0 null 2.6872ms
+2026-06-02 17:53:07.015 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/favicon.ico, Response status code: 404
+2026-06-02 17:53:58.142 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:53:58.144 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:53:58.145 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:53:58.152 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:53:58.154 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 7.7649ms
+2026-06-02 17:53:58.154 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:53:58.155 -05:00 [INF] Request [GET] /api/ApiQuery executed in 11 ms
+2026-06-02 17:53:58.156 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 14.4893ms
+2026-06-02 17:54:09.024 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:54:09.026 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:54:09.026 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:54:09.028 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:54:09.029 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.6382ms
+2026-06-02 17:54:09.029 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:54:09.030 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:54:09.031 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.3212ms
+2026-06-02 17:55:26.875 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:26.877 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:26.877 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:26.883 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:26.884 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 5.7908ms
+2026-06-02 17:55:26.885 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:26.886 -05:00 [INF] Request [GET] /api/ApiQuery executed in 8 ms
+2026-06-02 17:55:26.886 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 11.6938ms
+2026-06-02 17:55:27.839 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:27.841 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:27.842 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:27.844 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:27.845 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.9988ms
+2026-06-02 17:55:27.846 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:27.846 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:55:27.847 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.9178ms
+2026-06-02 17:55:28.619 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:28.621 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.621 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:28.624 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:28.625 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 2.5763ms
+2026-06-02 17:55:28.626 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.626 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:55:28.627 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.151ms
+2026-06-02 17:55:28.791 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:28.792 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.793 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:28.795 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:28.795 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.6203ms
+2026-06-02 17:55:28.797 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.797 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:55:28.798 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.9429ms
+2026-06-02 17:55:28.931 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:28.934 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.934 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:28.936 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:28.937 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.631ms
+2026-06-02 17:55:28.937 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:28.938 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:55:28.939 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.0033ms
+2026-06-02 17:55:58.977 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:55:58.985 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:58.986 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:55:58.991 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:55:58.992 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.6051ms
+2026-06-02 17:55:58.993 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:55:58.993 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 17:55:58.994 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 17.1712ms
+2026-06-02 17:55:59.023 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/favicon.ico - null null
+2026-06-02 17:55:59.025 -05:00 [INF] Request [GET] /favicon.ico executed in 0 ms
+2026-06-02 17:55:59.025 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/favicon.ico - 404 0 null 2.622ms
+2026-06-02 17:55:59.027 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7177/favicon.ico, Response status code: 404
+2026-06-02 17:57:04.600 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:04.603 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:04.604 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:04.609 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:04.610 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.3733ms
+2026-06-02 17:57:04.610 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:04.611 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 17:57:04.612 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 12.4364ms
+2026-06-02 17:57:07.296 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:07.298 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:07.298 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:07.301 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:07.302 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 2.5399ms
+2026-06-02 17:57:07.303 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:07.303 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:57:07.304 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.7354ms
+2026-06-02 17:57:08.624 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:08.626 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:08.627 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:08.629 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:08.630 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.9267ms
+2026-06-02 17:57:08.631 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:08.632 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:57:08.633 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.7172ms
+2026-06-02 17:57:09.186 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:09.188 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:09.188 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:09.190 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:09.190 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.4869ms
+2026-06-02 17:57:09.191 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:09.192 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:09.193 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 6.9156ms
+2026-06-02 17:57:09.813 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:09.815 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:09.816 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:09.818 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:09.818 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.6778ms
+2026-06-02 17:57:09.819 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:09.820 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:09.821 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.1538ms
+2026-06-02 17:57:10.347 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:10.349 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.350 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:10.352 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:10.353 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.7033ms
+2026-06-02 17:57:10.354 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.354 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:57:10.355 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.1698ms
+2026-06-02 17:57:10.768 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:10.770 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.770 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:10.772 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:10.773 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.6584ms
+2026-06-02 17:57:10.774 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.774 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:10.775 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.3318ms
+2026-06-02 17:57:10.988 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:10.990 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.990 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:10.992 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:10.993 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.8942ms
+2026-06-02 17:57:10.994 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:10.995 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:10.996 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.448ms
+2026-06-02 17:57:11.253 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:11.255 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:11.255 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:11.257 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:11.258 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.5918ms
+2026-06-02 17:57:11.259 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:11.259 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:11.260 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 6.9005ms
+2026-06-02 17:57:13.139 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:13.141 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.142 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:13.144 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:13.145 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 2.0791ms
+2026-06-02 17:57:13.146 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.147 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 17:57:13.148 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.2199ms
+2026-06-02 17:57:13.316 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:13.317 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.318 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:13.320 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:13.321 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.866ms
+2026-06-02 17:57:13.321 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.322 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:13.323 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.0707ms
+2026-06-02 17:57:13.502 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 17:57:13.504 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.505 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 17:57:13.506 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 17:57:13.507 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.7953ms
+2026-06-02 17:57:13.508 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 17:57:13.509 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 17:57:13.509 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.3384ms
+2026-06-02 18:00:35.802 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:00:35.804 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:35.804 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:00:35.809 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:00:35.810 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 5.1404ms
+2026-06-02 18:00:35.811 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:35.811 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 18:00:35.812 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 10.7593ms
+2026-06-02 18:00:36.760 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:00:36.762 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:36.763 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:00:36.764 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:00:36.765 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.7813ms
+2026-06-02 18:00:36.766 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:36.767 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 18:00:36.768 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.5764ms
+2026-06-02 18:00:51.259 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:00:51.263 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.264 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:00:51.265 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:00:51.266 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.79ms
+2026-06-02 18:00:51.267 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.268 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 18:00:51.268 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 9.5979ms
+2026-06-02 18:00:51.717 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:00:51.720 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.721 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:00:51.722 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:00:51.723 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.345ms
+2026-06-02 18:00:51.724 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.724 -05:00 [INF] Request [GET] /api/ApiQuery executed in 3 ms
+2026-06-02 18:00:51.725 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.0856ms
+2026-06-02 18:00:51.913 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:00:51.916 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.916 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:00:51.918 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:00:51.919 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.4118ms
+2026-06-02 18:00:51.919 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:00:51.920 -05:00 [INF] Request [GET] /api/ApiQuery executed in 3 ms
+2026-06-02 18:00:51.921 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.5879ms
+2026-06-02 18:04:25.598 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 18:04:25.668 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 18:04:25.729 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 18:04:25.730 -05:00 [INF] Hosting environment: Development
+2026-06-02 18:04:25.731 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 18:04:27.981 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:04:28.020 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:28.034 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:04:29.533 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:04:29.546 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1509.2825ms
+2026-06-02 18:04:29.548 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:29.549 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1530 ms
+2026-06-02 18:04:29.554 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1579.3583ms
+2026-06-02 18:04:33.879 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:04:33.882 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:33.883 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:04:33.891 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:04:33.892 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 8.4583ms
+2026-06-02 18:04:33.893 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:33.894 -05:00 [INF] Request [GET] /api/ApiQuery executed in 11 ms
+2026-06-02 18:04:33.895 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 16.2419ms
+2026-06-02 18:04:34.805 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:04:34.808 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:34.808 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:04:34.815 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:04:34.816 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 6.8769ms
+2026-06-02 18:04:34.817 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:34.818 -05:00 [INF] Request [GET] /api/ApiQuery executed in 9 ms
+2026-06-02 18:04:34.818 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 13.9545ms
+2026-06-02 18:04:35.546 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:04:35.548 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:35.548 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:04:35.555 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:04:35.555 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 6.0418ms
+2026-06-02 18:04:35.556 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:35.557 -05:00 [INF] Request [GET] /api/ApiQuery executed in 9 ms
+2026-06-02 18:04:35.558 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 12.9271ms
+2026-06-02 18:04:47.205 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:04:47.270 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:47.271 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:04:47.273 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:04:47.278 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 6.1428ms
+2026-06-02 18:04:47.278 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:04:47.279 -05:00 [INF] Request [GET] /api/ApiQuery executed in 9 ms
+2026-06-02 18:04:47.280 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 75.7151ms
+2026-06-02 18:05:46.321 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:05:46.323 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:46.324 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:05:46.329 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:05:46.330 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 5.8421ms
+2026-06-02 18:05:46.331 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:46.332 -05:00 [INF] Request [GET] /api/ApiQuery executed in 9 ms
+2026-06-02 18:05:46.333 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 11.7739ms
+2026-06-02 18:05:47.301 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:05:47.303 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:47.303 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:05:47.305 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:05:47.306 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 2.2697ms
+2026-06-02 18:05:47.307 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:47.308 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 18:05:47.309 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.6419ms
+2026-06-02 18:05:47.835 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:05:47.837 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:47.838 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:05:47.840 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:05:47.841 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.9996ms
+2026-06-02 18:05:47.842 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:05:47.842 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 18:05:47.843 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 8.3372ms
+2026-06-02 18:06:16.920 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:06:16.923 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:06:16.924 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:06:16.926 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:06:16.927 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.9029ms
+2026-06-02 18:06:16.928 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:06:16.928 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 18:06:16.929 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 9.1674ms
+2026-06-02 18:07:26.998 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:07:26.999 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:07:27.000 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:07:27.005 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:07:27.006 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.9345ms
+2026-06-02 18:07:27.007 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:07:27.007 -05:00 [INF] Request [GET] /api/ApiQuery executed in 8 ms
+2026-06-02 18:07:27.008 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 10.774ms
+2026-06-02 18:14:07.050 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 18:14:07.081 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 18:14:07.122 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 18:14:07.123 -05:00 [INF] Hosting environment: Development
+2026-06-02 18:14:07.123 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 18:14:09.732 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:14:09.773 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:09.787 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:14:11.267 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:14:11.280 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1488.9599ms
+2026-06-02 18:14:11.282 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:11.282 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1510 ms
+2026-06-02 18:14:11.287 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1559.7381ms
+2026-06-02 18:14:15.944 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:14:15.950 -05:00 [INF] CORS policy execution failed.
+2026-06-02 18:14:15.951 -05:00 [INF] Request origin null does not have permission to access the resource.
+2026-06-02 18:14:15.955 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:15.957 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:14:15.965 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:14:15.967 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 8.7535ms
+2026-06-02 18:14:15.968 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:15.969 -05:00 [INF] Request [GET] /api/ApiQuery executed in 14 ms
+2026-06-02 18:14:15.970 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 26.4419ms
+2026-06-02 18:14:16.804 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:14:16.807 -05:00 [INF] CORS policy execution failed.
+2026-06-02 18:14:16.807 -05:00 [INF] Request origin null does not have permission to access the resource.
+2026-06-02 18:14:16.808 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:16.809 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:14:16.813 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:14:16.814 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.2126ms
+2026-06-02 18:14:16.814 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:16.815 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 18:14:16.816 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 11.9453ms
+2026-06-02 18:14:17.387 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:14:17.389 -05:00 [INF] CORS policy execution failed.
+2026-06-02 18:14:17.389 -05:00 [INF] Request origin null does not have permission to access the resource.
+2026-06-02 18:14:17.390 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:17.391 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:14:17.393 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:14:17.394 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.9516ms
+2026-06-02 18:14:17.394 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:14:17.395 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 18:14:17.396 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 9.145ms
+2026-06-02 18:15:12.633 -05:00 [INF] Now listening on: https://localhost:7177
+2026-06-02 18:15:12.670 -05:00 [INF] Now listening on: http://localhost:5244
+2026-06-02 18:15:12.722 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-02 18:15:12.723 -05:00 [INF] Hosting environment: Development
+2026-06-02 18:15:12.723 -05:00 [INF] Content root path: C:\Users\AMD\source\repos\janpierts\.Net-DemoAPI\Demo.API
+2026-06-02 18:15:13.533 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:15:13.576 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:15:13.580 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:15:13.595 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:15:15.057 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:15:15.070 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1471.9543ms
+2026-06-02 18:15:15.072 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:15:15.073 -05:00 [INF] Request [GET] /api/ApiQuery executed in 1494 ms
+2026-06-02 18:15:15.078 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 1550.3334ms
+2026-06-02 18:15:33.071 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2026-06-02 18:15:33.173 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 304 null null 101.6947ms
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.css - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.js - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-02 18:15:33.179 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2026-06-02 18:15:33.186 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.js - 304 null null 6.6902ms
+2026-06-02 18:15:33.189 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.css - 304 null null 9.7418ms
+2026-06-02 18:15:33.189 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui.css - 304 null null 9.7866ms
+2026-06-02 18:15:33.189 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-standalone-preset.js - 304 null null 9.6286ms
+2026-06-02 18:15:33.191 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/swagger-ui-bundle.js - 304 null null 12.0014ms
+2026-06-02 18:15:33.198 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 14921 application/javascript; charset=utf-8 18.9136ms
+2026-06-02 18:15:33.216 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.4419ms
+2026-06-02 18:15:33.244 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2026-06-02 18:15:33.245 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - null null
+2026-06-02 18:15:33.247 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/favicon-32x32.png - 304 null null 1.6874ms
+2026-06-02 18:15:33.254 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.4062ms
+2026-06-02 18:16:32.849 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - application/json 87
+2026-06-02 18:16:32.852 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:16:32.852 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:16:32.862 -05:00 [INF] Route matched with {action = "CreateVenta", controller = "ApiCommand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenta(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateVentasCommand) on controller Demo.API.demo.Controller.ApiCommandController (Demo.API).
+2026-06-02 18:16:32.926 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-02 18:16:32.929 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API) in 66.2922ms
+2026-06-02 18:16:32.930 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:16:32.931 -05:00 [INF] Request [POST] /api/ApiCommand/ventas executed in 78 ms
+2026-06-02 18:16:32.931 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - 200 null application/json; charset=utf-8 82.8201ms
+2026-06-02 18:16:41.828 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:16:41.830 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:16:41.831 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:16:41.831 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:16:41.838 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:16:41.839 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 6.8219ms
+2026-06-02 18:16:41.840 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:16:41.840 -05:00 [INF] Request [GET] /api/ApiQuery executed in 9 ms
+2026-06-02 18:16:41.841 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 13.319ms
+2026-06-02 18:18:21.326 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:18:21.328 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:18:21.329 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:18:21.329 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:18:21.334 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:18:21.335 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.8838ms
+2026-06-02 18:18:21.336 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:18:21.337 -05:00 [INF] Request [GET] /api/ApiQuery executed in 8 ms
+2026-06-02 18:18:21.338 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 11.6048ms
+2026-06-02 18:18:59.709 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:18:59.711 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:18:59.711 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:18:59.712 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:18:59.717 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:18:59.717 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.5626ms
+2026-06-02 18:18:59.718 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:18:59.719 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 18:18:59.720 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 10.3144ms
+2026-06-02 18:19:01.073 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:19:01.075 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:19:01.075 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:19:01.076 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:19:01.077 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:19:01.078 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.5495ms
+2026-06-02 18:19:01.079 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:19:01.079 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 18:19:01.080 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.0755ms
+2026-06-02 18:20:20.898 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:20:20.900 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:20:20.901 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:20:20.901 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:20:20.906 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:20:20.907 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 4.9343ms
+2026-06-02 18:20:20.908 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:20:20.909 -05:00 [INF] Request [GET] /api/ApiQuery executed in 8 ms
+2026-06-02 18:20:20.910 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 12.1205ms
+2026-06-02 18:22:42.631 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:22:42.633 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:22:42.633 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:22:42.633 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:22:42.639 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:22:42.640 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 5.4569ms
+2026-06-02 18:22:42.640 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:22:42.641 -05:00 [INF] Request [GET] /api/ApiQuery executed in 7 ms
+2026-06-02 18:22:42.642 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 11.1438ms
+2026-06-02 18:23:07.787 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:23:07.789 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:23:07.789 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:07.789 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:23:07.791 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:23:07.792 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.4375ms
+2026-06-02 18:23:07.792 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:07.793 -05:00 [INF] Request [GET] /api/ApiQuery executed in 3 ms
+2026-06-02 18:23:07.794 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 6.8289ms
+2026-06-02 18:23:16.757 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7177/api/ApiCommand/ventas - null null
+2026-06-02 18:23:16.759 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:23:16.760 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7177/api/ApiCommand/ventas - 204 null null 2.395ms
+2026-06-02 18:23:16.761 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - application/json 67
+2026-06-02 18:23:16.762 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:23:16.763 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:23:16.764 -05:00 [INF] Route matched with {action = "CreateVenta", controller = "ApiCommand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenta(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateVentasCommand) on controller Demo.API.demo.Controller.ApiCommandController (Demo.API).
+2026-06-02 18:23:16.774 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-02 18:23:16.775 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API) in 10.8585ms
+2026-06-02 18:23:16.776 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:23:16.776 -05:00 [INF] Request [POST] /api/ApiCommand/ventas executed in 13 ms
+2026-06-02 18:23:16.777 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:23:16.777 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - 200 null application/json; charset=utf-8 16.5634ms
+2026-06-02 18:23:16.779 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:23:16.780 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:16.781 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:23:16.784 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:23:16.785 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 3.2887ms
+2026-06-02 18:23:16.785 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:16.786 -05:00 [INF] Request [GET] /api/ApiQuery executed in 5 ms
+2026-06-02 18:23:16.787 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 9.7509ms
+2026-06-02 18:23:20.472 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:23:20.474 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:23:20.474 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:20.475 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:23:20.477 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:23:20.478 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.734ms
+2026-06-02 18:23:20.478 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:23:20.479 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 18:23:20.479 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.1791ms
+2026-06-02 18:29:04.712 -05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7177/api/ApiCommand/ventas - null null
+2026-06-02 18:29:04.714 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:29:04.715 -05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7177/api/ApiCommand/ventas - 204 null null 2.3476ms
+2026-06-02 18:29:04.716 -05:00 [INF] Request starting HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - application/json 67
+2026-06-02 18:29:04.717 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:29:04.718 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:29:04.718 -05:00 [INF] Route matched with {action = "CreateVenta", controller = "ApiCommand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVenta(Demo.Application.demo.Features.Catalog.Commands.CreateUpdateVentasCommand) on controller Demo.API.demo.Controller.ApiCommandController (Demo.API).
+2026-06-02 18:29:05.980 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-02 18:29:05.981 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API) in 1262.6311ms
+2026-06-02 18:29:05.982 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiCommandController.CreateVenta (Demo.API)'
+2026-06-02 18:29:05.983 -05:00 [INF] Request [POST] /api/ApiCommand/ventas executed in 1265 ms
+2026-06-02 18:29:05.983 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:29:05.984 -05:00 [INF] Request finished HTTP/2 POST https://localhost:7177/api/ApiCommand/ventas - 200 null application/json; charset=utf-8 1267.8845ms
+2026-06-02 18:29:05.985 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:29:05.987 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:29:05.987 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:29:05.991 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:29:05.992 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 3.5513ms
+2026-06-02 18:29:05.992 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:29:05.993 -05:00 [INF] Request [GET] /api/ApiQuery executed in 6 ms
+2026-06-02 18:29:05.994 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 10.3252ms
+2026-06-02 18:29:10.969 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/ApiQuery - null null
+2026-06-02 18:29:10.971 -05:00 [INF] CORS policy execution successful.
+2026-06-02 18:29:10.971 -05:00 [INF] Executing endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:29:10.972 -05:00 [INF] Route matched with {action = "GetVentas", controller = "ApiQuery"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetVentas() on controller Demo.API.demo.Controller.ApiQueryController (Demo.API).
+2026-06-02 18:29:10.974 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Demo.Domain.Demo.model.ReadVentasModel, Demo.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-02 18:29:10.975 -05:00 [INF] Executed action Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API) in 1.815ms
+2026-06-02 18:29:10.975 -05:00 [INF] Executed endpoint 'Demo.API.demo.Controller.ApiQueryController.GetVentas (Demo.API)'
+2026-06-02 18:29:10.976 -05:00 [INF] Request [GET] /api/ApiQuery executed in 4 ms
+2026-06-02 18:29:10.977 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/ApiQuery - 200 null application/json; charset=utf-8 7.1354ms

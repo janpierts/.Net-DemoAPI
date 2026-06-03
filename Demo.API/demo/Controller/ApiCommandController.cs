@@ -14,6 +14,13 @@ public class ApiCommandController : ControllerBase
     {
         _productService = productService;
     }
+    [HttpPost("ventas")]
+    public async Task<IActionResult> CreateVenta([FromBody]CreateUpdateVentasCommand command)
+    {
+        var result = await _productService.CreateVenta(command);
+        if (!result) return BadRequest("No se pudo crear la venta.");
+        return Ok(new { Success = true });
+    }
     [HttpPost]
     public async Task<IActionResult> Create([FromBody]CreateUpdateProductCommand command){
         var validator = new CreateProductCommandValidador();
